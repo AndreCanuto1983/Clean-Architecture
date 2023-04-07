@@ -12,4 +12,8 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Simis.Domain\Simis.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simis.Api", "Simis.Api\Simis.Api.csproj", "{12B79F9F-EECF-4A40-B3A1-04CF8FDB313A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simis.Svc", "Simis.Api\Simis.Svc.csproj", "{12B79F9F-EECF-4A40-B3A1-04CF8FDB313A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simis.Application", "Simis.Application\Simis.Application.csproj", "{2A8655BB-9E28-46FC-84AD-567A9F28B0A7}"
 EndProject

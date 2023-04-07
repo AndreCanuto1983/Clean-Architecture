@@ -8,10 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Input Models\" />
+    <Compile Remove="View Models\**" />
+    <EmbeddedResource Remove="View Models\**" />
+    <None Remove="View Models\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Services\" />
-    <Folder Include="View Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Simis.Domain\Simis.Domain.csproj" />
   </ItemGroup>
 
 </Project>

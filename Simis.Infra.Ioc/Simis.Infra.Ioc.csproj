@@ -11,4 +11,9 @@
     <Folder Include="DependencyInjection\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Simis.Application\Simis.Application.csproj" />
+    <ProjectReference Include="..\Simis.Infra.Data\Simis.Infra.Data.csproj" />
+  </ItemGroup>
+
 </Project>

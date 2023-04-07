@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Simis.Controllers
+namespace Simis.Svc.Controllers
 {
     [ApiController]
     [Route("[controller]")]
