@@ -13,4 +13,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Simis.Infra.Data\Simis.Infra.Data.csproj" />
+    <ProjectReference Include="..\Simis.Infra.Ioc\Simis.Infra.Ioc.csproj" />
+  </ItemGroup>
+
 </Project>
